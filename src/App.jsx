@@ -124,7 +124,7 @@ Regras: slide 1 = capa, último = cta, intermediários = conteudo ou destaque. S
         method: "POST",
         headers: { "Content-Type": "application/json", "x-api-key": apiKey, "anthropic-version": "2023-06-01", "anthropic-dangerous-direct-browser-access": "true" },
         body: JSON.stringify({
-          model: "claude-sonnet-4-20250514",
+          model: "claude-sonnet-4-5",
           max_tokens: 1000,
           system: "Você é especialista em marketing para Instagram no nicho de regularização de imóveis e redução de INSS em obras. Responda APENAS com JSON válido, sem markdown, sem texto antes ou depois.",
           messages: [{ role: "user", content: prompt }],
